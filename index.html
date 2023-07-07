@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png sizes=" 32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="left">
+      <div class="logo">
+        <img class="menu-icon" src="./images/icon-menu.svg" alt="menu icon">
+        <img src="./images/logo.svg" alt="logo of sneakers">
+      </div>
+      <nav class="menu-navigation">
+        <img class="menu-navigation-close" src="./images/icon-close-mobile.svg" alt="close icon" width="20px" srcset="">
+        <div class="menu-navigation-links">
+          <a href="#"> Collections</a>
+          <a href="#"> Men</a>
+          <a href="#"> Women</a>
+          <a href="#"> About</a>
+          <a href="#">Contact</a>
+        </div>
+      </nav>
+    </div>
+    <div class="right">
+      <div class="basket-icon">
+        <img src="./images/icon-cart.svg" alt="cart image">
+        <div class="basket-icon-count">
+          0
+        </div>
+      </div>
+      <div class="profile">
+        <img class="profile-image" src="./images/image-avatar.png" alt="profile image">
+      </div>
+      <div class="basket">
+        <div class="basket-header">Cart</div>
+        <div class="basket-content">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="product">
+      <div class="product-image-wrapper">
+        <img class="product-image product-thumbnail1" src="./images/image-product-1.jpg" alt="shoe1">
+        <img class="product-image product-thumbnail2" src="./images/image-product-2.jpg" alt="shoe2">
+        <img class="product-image product-thumbnail3" src="./images/image-product-3.jpg" alt="shoe3">
+        <img class="product-image product-thumbnail4" src="./images/image-product-4.jpg" alt="shoe4">
+      </div>
+      <div class="product-thumbnails-wrapper">
+        <img class="product-thumbnail thumbnBTN1" data-thumb="thumbnBTN1" data-product="product-thumbnail1"
+          src="./images/image-product-1-thumbnail.jpg" alt="product1">
+        <img class="product-thumbnail thumbnBTN2" data-thumb="thumbnBTN2" data-product="product-thumbnail2"
+          src="./images/image-product-2-thumbnail.jpg" alt="product2">
+        <img class="product-thumbnail thumbnBTN3" data-thumb="thumbnBTN3" data-product="product-thumbnail3"
+          src="./images/image-product-3-thumbnail.jpg" alt="product3">
+        <img class="product-thumbnail thumbnBTN4" data-thumb="thumbnBTN4" data-product="product-thumbnail4"
+          src="./images/image-product-4-thumbnail.jpg" alt="product4">
+      </div>
+    </div>
+    <div class="product-details">
+      <h2 class="product-subtitle">
+        Sneaker Company
+      </h2>
+      <h1 class="product-title">
+        Fall Limited Edition Sneakers
+      </h1>
+      <p class="product-description">
+        These low-profile sneakers are your perfect casual wear companion. Featuring a
+        durable rubber outer sole, they’ll withstand everything the weather can offer.
+      </p>
+      <div class="price-area">
+        <div style="display: flex;">
+          <div class="reduced-price">
+            $125.00
+          </div>
+          <div class="procentige">
+            50%
+          </div>
+        </div>
+        <div class="original-price">
+          $250.00
+        </div>
+      </div>
+
+      <div class="counter-area">
+        <div class="counter">
+          <img class="counter-minus" src="./images/icon-minus.svg" alt="minus arrow image">
+          <div class="counter-value"></div>
+          <img class="counter-plus" src="./images/icon-plus.svg" alt="plus arrow image">
+        </div>
+        <div class="add-tocart-btn">
+          <img class='add-tocart-btn-icon' src="./images/icon-cart.svg" alt="cart icon"></img>
+          Add to cart
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="overlay">
+    <div class="product-overlay">
+      <div class="product-image-wrapper">
+        <img class="product-image-overlay over-img1" src="./images/image-product-1.jpg" alt="shoe1">
+        <img class="product-image-overlay over-img2" src="./images/image-product-2.jpg" alt="shoe2">
+        <img class="product-image-overlay over-img3" src="./images/image-product-3.jpg" alt="shoe3">
+        <img class="product-image-overlay over-img4" src="./images/image-product-4.jpg" alt="shoe4">
+      </div>
+      <img class="close-btn" src="./images//icon-close.svg" alt="close icon">
+      <div class="product-thumbnails-wrapper">
+        <img class="product-thumbnail-overlay thumbnBTN1" data-img="over-img1"
+          src="./images/image-product-1-thumbnail.jpg" alt="product1">
+        <img class="product-thumbnail-overlay thumbnBTN2" data-img="over-img2"
+          src="./images/image-product-2-thumbnail.jpg" alt="product2">
+        <img class="product-thumbnail-overlay thumbnBTN3" data-img="over-img3"
+          src="./images/image-product-3-thumbnail.jpg" alt="product3">
+        <img class="product-thumbnail-overlay thumbnBTN4" data-img="over-img4"
+          src="./images/image-product-4-thumbnail.jpg" alt="product4">
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Attribution starts -->
+  <div class="attribution">
+    <div class="attribution-circle"></div>
+    <div class="attribution-content">
+      <div class="attrinbution-content-link">
+        <img src="/images/favicon-32x32.png" />
+        <p>
+          <a href="https://www.frontendmentor.io" target="_blank">Fronted Mentor</a>
+        </p>
+      </div>
+      <div class="attrinbution-content-link">
+        <ion-icon name="home-outline"></ion-icon>
+        <p>
+          <a href="https://yprojects.netlify.app/" target="_blank">My Website</a>
+        </p>
+      </div>
+      <div class="attrinbution-content-link">
+        <ion-icon name="logo-instagram"></ion-icon>
+        <p>
+          <a href="https://www.instagram.com/yoqedo/" target="_blank">Instagram</a>
+        </p>
+      </div>
+      <div class="attrinbution-content-link">
+        <ion-icon name="logo-github"></ion-icon>
+        <p>
+          <a href="https://github.com/yoqedo" target="_blank">Github</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
